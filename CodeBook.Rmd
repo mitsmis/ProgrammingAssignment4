@@ -76,4 +76,18 @@ freqBodyAngularVelocityMag-std()	|	numeric	|	mean	|
 freqBodyAngularVelocityJerkMag-mean()	|	numeric	|	mean	|
 freqBodyAngularVelocityJerkMag-std()	|	numeric	|	mean	|
 
+#Process
+1. Merge test and train data sets for features.
+  * Leverage 'read.table'and 'rbind'.
+  * Used x_train.txt amd x_test.txt.
+2. Merge test and train data sets for subjects.
+  * Leverage 'read.table'and 'rbind'
+  * Used subject_train.txt and subject_test.txt
+3. Merge test and train data sets for activities.
+  * Leverage 'read.table'and 'rbind'
+  * Used y_train.txt and y_test.txt
+4. Add Variable Headers to the Data.
+  * Leverage 'c' and 'read.table' function.
+5. Combined Data Sets
+  * Leverage 'cbind' function.
 

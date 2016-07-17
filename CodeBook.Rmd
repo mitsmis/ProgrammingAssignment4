@@ -1,83 +1,79 @@
 # Code Book for "Getting and Cleaning Data" Project
 
 ## Process to Filename: 'tidydata.txt'
-Description: A tidy data set that contains 180 observations over 68 variables. The data is an aggregation by [subject] 
-and [activity] with values of calculated mean for 66 variables from all observations.
+Description: A tidy data set that contains 180 observations over 68 variables. The data is an aggregation by subject
+and activity with values of calculated mean for 66 variables from all observations.
 
 ## Variables
-Variable | Type | Comment
-subject | (integer) | Identifies the subject. A number between 1 and 30.
-2.activity - (character) - Indetifies the activities of the subject.
-    Levels:
-    walking
-    walking_upstairs
-    walking_downstairs
-    sitting
-    standing
-    laying
-timeBodyAcceleration-mean()-X |
-timeBodyAcceleration-mean()-Y |
-timeBodyAcceleration-mean()-Z
-timeBodyAcceleration-std()-X
-timeBodyAcceleration-std()-Y
-timeBodyAcceleration-std()-Z
-timeGravityAcceleration-mean()-X
-timeGravityAcceleration-mean()-Y
-timeGravityAcceleration-mean()-Z
-timeGravityAcceleration-std()-X
-timeGravityAcceleration-std()-Y
-timeGravityAcceleration-std()-Z
-timeBodyAccelerationJerk-mean()-X
-timeBodyAccelerationJerk-mean()-Y
-timeBodyAccelerationJerk-mean()-Z
-timeBodyAccelerationJerk-std()-X
-timeBodyAccelerationJerk-std()-Y
-timeBodyAccelerationJerk-std()-Z
-timeBodyAngularVelocity-mean()-X
-timeBodyAngularVelocity-mean()-Y
-timeBodyAngularVelocity-mean()-Z
-timeBodyAngularVelocity-std()-X
-timeBodyAngularVelocity-std()-Y
-timeBodyAngularVelocity-std()-Z
-timeBodyAngularVelocityJerk-mean()-X
-timeBodyAngularVelocityJerk-mean()-Y
-timeBodyAngularVelocityJerk-mean()-Z
-timeBodyAngularVelocityJerk-std()-X
-timeBodyAngularVelocityJerk-std()-Y
-timeBodyAngularVelocityJerk-std()-Z
-timeBodyAccelerationMag-mean()
-timeBodyAccelerationMag-std()
-timeGravityAccelerationMag-mean()
-timeGravityAccelerationMag-std()
-timeBodyAccelerationJerkMag-mean()
-timeBodyAccelerationJerkMag-std()
-timeBodyAngularVelocityMag-mean()
-timeBodyAngularVelocityMag-std()
-timeBodyAngularVelocityJerkMag-mean()
-timeBodyAngularVelocityJerkMag-std()
-freqBodyAcceleration-mean()-X
-freqBodyAcceleration-mean()-Y
-freqBodyAcceleration-mean()-Z
-freqBodyAcceleration-std()-X
-freqBodyAcceleration-std()-Y
-freqBodyAcceleration-std()-Z
-freqBodyAccelerationJerk-mean()-X
-freqBodyAccelerationJerk-mean()-Y
-freqBodyAccelerationJerk-mean()-Z
-freqBodyAccelerationJerk-std()-X
-freqBodyAccelerationJerk-std()-Y
-freqBodyAccelerationJerk-std()-Z
-freqBodyAngularVelocity-mean()-X
-freqBodyAngularVelocity-mean()-Y
-freqBodyAngularVelocity-mean()-Z
-freqBodyAngularVelocity-std()-X
-freqBodyAngularVelocity-std()-Y
-freqBodyAngularVelocity-std()-Z
-freqBodyAccelerationMag-mean()
-freqBodyAccelerationMag-std()
-freqBodyAccelerationJerkMag-mean()
-freqBodyAccelerationJerkMag-std()
-freqBodyAngularVelocityMag-mean()
-freqBodyAngularVelocityMag-std()
-freqBodyAngularVelocityJerkMag-mean()
-freqBodyAngularVelocityJerkMag-std()
+Variable | Type | Comment | Value
+--- | --- | --- | ---
+subject | integer | Identifies the subject | A number between 1 and 30.
+activity | character | Indentifies the activities of the subject | walking, walking_upstairs, walking_downstairs, sitting, standing, laying
+timeBodyAcceleration-mean()-X	|	numeric	|	mean	|
+timeBodyAcceleration-mean()-Y	|	numeric	|	mean	|
+timeBodyAcceleration-mean()-Z	|	numeric	|	mean	|
+timeBodyAcceleration-std()-X	|	numeric	|	mean	|
+timeBodyAcceleration-std()-Y	|	numeric	|	mean	|
+timeBodyAcceleration-std()-Z	|	numeric	|	mean	|
+timeGravityAcceleration-mean()-X	|	numeric	|	mean	|
+timeGravityAcceleration-mean()-Y	|	numeric	|	mean	|
+timeGravityAcceleration-mean()-Z	|	numeric	|	mean	|
+timeGravityAcceleration-std()-X	|	numeric	|	mean	|
+timeGravityAcceleration-std()-Y	|	numeric	|	mean	|
+timeGravityAcceleration-std()-Z	|	numeric	|	mean	|
+timeBodyAccelerationJerk-mean()-X	|	numeric	|	mean	|
+timeBodyAccelerationJerk-mean()-Y	|	numeric	|	mean	|
+timeBodyAccelerationJerk-mean()-Z	|	numeric	|	mean	|
+timeBodyAccelerationJerk-std()-X	|	numeric	|	mean	|
+timeBodyAccelerationJerk-std()-Y	|	numeric	|	mean	|
+timeBodyAccelerationJerk-std()-Z	|	numeric	|	mean	|
+timeBodyAngularVelocity-mean()-X	|	numeric	|	mean	|
+timeBodyAngularVelocity-mean()-Y	|	numeric	|	mean	|
+timeBodyAngularVelocity-mean()-Z	|	numeric	|	mean	|
+timeBodyAngularVelocity-std()-X	|	numeric	|	mean	|
+timeBodyAngularVelocity-std()-Y	|	numeric	|	mean	|
+timeBodyAngularVelocity-std()-Z	|	numeric	|	mean	|
+timeBodyAngularVelocityJerk-mean()-X	|	numeric	|	mean	|
+timeBodyAngularVelocityJerk-mean()-Y	|	numeric	|	mean	|
+timeBodyAngularVelocityJerk-mean()-Z	|	numeric	|	mean	|
+timeBodyAngularVelocityJerk-std()-X	|	numeric	|	mean	|
+timeBodyAngularVelocityJerk-std()-Y	|	numeric	|	mean	|
+timeBodyAngularVelocityJerk-std()-Z	|	numeric	|	mean	|
+timeBodyAccelerationMag-mean()	|	numeric	|	mean	|
+timeBodyAccelerationMag-std()	|	numeric	|	mean	|
+timeGravityAccelerationMag-mean()	|	numeric	|	mean	|
+timeGravityAccelerationMag-std()	|	numeric	|	mean	|
+timeBodyAccelerationJerkMag-mean()	|	numeric	|	mean	|
+timeBodyAccelerationJerkMag-std()	|	numeric	|	mean	|
+timeBodyAngularVelocityMag-mean()	|	numeric	|	mean	|
+timeBodyAngularVelocityMag-std()	|	numeric	|	mean	|
+timeBodyAngularVelocityJerkMag-mean()	|	numeric	|	mean	|
+timeBodyAngularVelocityJerkMag-std()	|	numeric	|	mean	|
+freqBodyAcceleration-mean()-X	|	numeric	|	mean	|
+freqBodyAcceleration-mean()-Y	|	numeric	|	mean	|
+freqBodyAcceleration-mean()-Z	|	numeric	|	mean	|
+freqBodyAcceleration-std()-X	|	numeric	|	mean	|
+freqBodyAcceleration-std()-Y	|	numeric	|	mean	|
+freqBodyAcceleration-std()-Z	|	numeric	|	mean	|
+freqBodyAccelerationJerk-mean()-X	|	numeric	|	mean	|
+freqBodyAccelerationJerk-mean()-Y	|	numeric	|	mean	|
+freqBodyAccelerationJerk-mean()-Z	|	numeric	|	mean	|
+freqBodyAccelerationJerk-std()-X	|	numeric	|	mean	|
+freqBodyAccelerationJerk-std()-Y	|	numeric	|	mean	|
+freqBodyAccelerationJerk-std()-Z	|	numeric	|	mean	|
+freqBodyAngularVelocity-mean()-X	|	numeric	|	mean	|
+freqBodyAngularVelocity-mean()-Y	|	numeric	|	mean	|
+freqBodyAngularVelocity-mean()-Z	|	numeric	|	mean	|
+freqBodyAngularVelocity-std()-X	|	numeric	|	mean	|
+freqBodyAngularVelocity-std()-Y	|	numeric	|	mean	|
+freqBodyAngularVelocity-std()-Z	|	numeric	|	mean	|
+freqBodyAccelerationMag-mean()	|	numeric	|	mean	|
+freqBodyAccelerationMag-std()	|	numeric	|	mean	|
+freqBodyAccelerationJerkMag-mean()	|	numeric	|	mean	|
+freqBodyAccelerationJerkMag-std()	|	numeric	|	mean	|
+freqBodyAngularVelocityMag-mean()	|	numeric	|	mean	|
+freqBodyAngularVelocityMag-std()	|	numeric	|	mean	|
+freqBodyAngularVelocityJerkMag-mean()	|	numeric	|	mean	|
+freqBodyAngularVelocityJerkMag-std()	|	numeric	|	mean	|
+
+

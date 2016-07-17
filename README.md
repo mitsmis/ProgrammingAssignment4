@@ -19,6 +19,21 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+## Overview from UCI Machine Learning Repository
+### Data Set Characteristics: Multivariate, Time-Series
+### Attribute Characteristics: N/A
+### Associated Tasks: Classification, Clustering
+### Number of Instances: 10299
+### Number of Attributes: 561
+### Missing Values?: N/A
+
+### Source: Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
+### 1 - Smartlab - Non-Linear Complex Systems Laboratory
+### DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
+### 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
+### Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
+### activityrecognition '@' smartlab.ws
+
 Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip

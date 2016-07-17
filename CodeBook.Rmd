@@ -5,8 +5,9 @@ Description: A tidy data set that contains 180 observations over 68 variables. T
 and [activity] with values of calculated mean for 66 variables from all observations.
 
 ## Variables
-subject - (integer) - Identifies the subject. A number between 1 and 30.
-activity - (character) - Indetifies the activities of the subject.
+Variable | Type | Comment
+subject | (integer) | Identifies the subject. A number between 1 and 30.
+2.activity - (character) - Indetifies the activities of the subject.
     Levels:
     walking
     walking_upstairs
@@ -14,9 +15,8 @@ activity - (character) - Indetifies the activities of the subject.
     sitting
     standing
     laying
-
-timeBodyAcceleration-mean()-X
-timeBodyAcceleration-mean()-Y
+timeBodyAcceleration-mean()-X |
+timeBodyAcceleration-mean()-Y |
 timeBodyAcceleration-mean()-Z
 timeBodyAcceleration-std()-X
 timeBodyAcceleration-std()-Y
